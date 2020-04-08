@@ -1,0 +1,52 @@
+\contentsline {section}{\numberline {1}r\IeC {\`e}gle g\IeC {\'e}n\IeC {\'e}rale}{2}
+\contentsline {subsection}{\numberline {1.1}Principe du jeu}{2}
+\contentsline {subsection}{\numberline {1.2}Les statistiques des unit\IeC {\'e}s}{2}
+\contentsline {section}{\numberline {2}Phases de jeu}{3}
+\contentsline {subsection}{\numberline {2.1}Phase de d\IeC {\'e}placement}{3}
+\contentsline {subsection}{\numberline {2.2}Phase d'action}{4}
+\contentsline {subsection}{\numberline {2.3}Attaquer}{4}
+\contentsline {subsubsection}{\numberline {2.3.1}Celui qui attaque :}{4}
+\contentsline {subsubsection}{\numberline {2.3.2}Celui qui se fait attaquer :}{4}
+\contentsline {subsection}{\numberline {2.4}Se d\IeC {\'e}fendre: }{4}
+\contentsline {section}{\numberline {3}Composer une arm\IeC {\'e}e}{4}
+\contentsline {section}{\numberline {4}Les unit\IeC {\'e}s}{5}
+\contentsline {subsection}{\numberline {4.1}Les g\IeC {\'e}n\IeC {\'e}raux}{5}
+\contentsline {subsection}{\numberline {4.2}Humains}{6}
+\contentsline {subsubsection}{\numberline {4.2.1}Les enr\IeC {\^o}l\IeC {\'e}s: }{6}
+\contentsline {subsubsection}{\numberline {4.2.2}Les \IeC {\'e}p\IeC {\'e}istes: }{6}
+\contentsline {subsubsection}{\numberline {4.2.3}Les chevaliers: }{6}
+\contentsline {subsubsection}{\numberline {4.2.4}L'archer: }{6}
+\contentsline {subsubsection}{\numberline {4.2.5}L'arbal\IeC {\'e}trier: }{6}
+\contentsline {subsubsection}{\numberline {4.2.6}Les cavaliers: }{6}
+\contentsline {subsection}{\numberline {4.3}Orks}{7}
+\contentsline {subsubsection}{\numberline {4.3.1}Gobelin}{7}
+\contentsline {subsubsection}{\numberline {4.3.2}Ork}{7}
+\contentsline {subsubsection}{\numberline {4.3.3}Piquier}{7}
+\contentsline {subsubsection}{\numberline {4.3.4}Ork noir}{7}
+\contentsline {subsubsection}{\numberline {4.3.5}Archer}{7}
+\contentsline {subsubsection}{\numberline {4.3.6}Troll}{7}
+\contentsline {subsubsection}{\numberline {4.3.7}Cavalier Warg}{7}
+\contentsline {subsection}{\numberline {4.4}Elfes}{8}
+\contentsline {subsubsection}{\numberline {4.4.1}Elfes de maison: }{8}
+\contentsline {subsubsection}{\numberline {4.4.2}Archers Elfes: }{8}
+\contentsline {subsubsection}{\numberline {4.4.3}Archers Longs: }{8}
+\contentsline {subsubsection}{\numberline {4.4.4}Elfes furtifs: }{8}
+\contentsline {subsubsection}{\numberline {4.4.5}Hauts Elfes: }{8}
+\contentsline {subsubsection}{\numberline {4.4.6}Mages Elfiques: }{8}
+\contentsline {subsubsection}{\numberline {4.4.7}Golems: }{8}
+\contentsline {subsection}{\numberline {4.5}Nains}{9}
+\contentsline {subsubsection}{\numberline {4.5.1}Mineurs}{9}
+\contentsline {subsubsection}{\numberline {4.5.2}Barbepierre}{9}
+\contentsline {subsubsection}{\numberline {4.5.3}Sprinter}{9}
+\contentsline {subsubsection}{\numberline {4.5.4}Brisefer}{9}
+\contentsline {subsubsection}{\numberline {4.5.5}Berzerk}{9}
+\contentsline {subsubsection}{\numberline {4.5.6}Branner}{9}
+\contentsline {subsubsection}{\numberline {4.5.7}Ingenieur}{9}
+\contentsline {subsection}{\numberline {4.6}D\IeC {\'e}mons}{10}
+\contentsline {subsubsection}{\numberline {4.6.1}Rejetons: }{10}
+\contentsline {subsubsection}{\numberline {4.6.2}Les Soldats de la Reine: }{10}
+\contentsline {subsubsection}{\numberline {4.6.3}Lanciers d\IeC {\'e}terr\IeC {\'e}s: }{10}
+\contentsline {subsubsection}{\numberline {4.6.4}Les Gardes de la Reine: }{10}
+\contentsline {subsubsection}{\numberline {4.6.5}Cracheurs d'acide: }{10}
+\contentsline {subsubsection}{\numberline {4.6.6}Chaomencien: }{10}
+\contentsline {subsubsection}{\numberline {4.6.7}Les Centaures poss\IeC {\'e}d\IeC {\'e}: }{10}

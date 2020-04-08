@@ -1,0 +1,8 @@
+enrole,10,2,50,10,6,1,1,1,24,inf leg,0
+epeiste,25,10,60,20,5,1,5,5,56,inf leg,0
+lancier,25,10,60,20,5,2,2,5,56,anticav,0
+chevalier,40,30,70,40,3,1,1,10,107,inf lourd,0
+archer,15,5,90,20,6,5,7,7,52,dist,10
+arbaletrier,20,7,90,25,6,6,4,8,65,dist,5
+cavalier,25,10,60,20,7,1,2,8,58,cav,0
+general,80,20,80,50,7,1,2,10,156,gen cav,0

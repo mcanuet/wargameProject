@@ -1,0 +1,9 @@
+"{nbArmees=10;nbGeneration=50}{select=all;mutation=20%-100%;croisement=60%-100%}tempsPris=930.5601789951324 (newAstar)"
+general,0,0,0,0,0,0,0,0,0,0
+epeiste,4,4,4,4,4,4,4,8,8,8
+cavalier,4,4,4,4,4,4,4,3,3,3
+arbaletrier,11,11,11,11,11,11,11,12,12,12
+archer,8,8,8,8,8,8,8,3,3,3
+lancier,2,2,2,2,2,2,2,4,4,4
+chevalier,2,2,2,2,2,2,2,1,1,1
+enrole,2,2,2,2,2,2,2,3,3,3

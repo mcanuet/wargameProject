@@ -1,0 +1,8 @@
+rejeton,10,0,50,5,8,1,0,2,22,inf leg,0
+soldat de la reine,30,5,60,25,5,1,5,5,59,inf leg,0
+lancier détéré,25,5,55,20,5,2,5,2,50,anticav,0
+garde de la reine,45,20,65,40,4,1,10,10,107,inf lourd,0
+cracheur d'acide,20,5,65,30,6,5,5,10,60,dist,0
+chaomancien,15,5,70,20,5,4,5,10,46,dist,0
+centaur possédé,30,8,60,20,7,1,5,5,61,cav,0
+reine du chaos,80,20,80,50,5,4,10,15,167,gen leg dist,0

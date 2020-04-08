@@ -1,0 +1,98 @@
+body{
+	margin:0px;
+	background-image:url("../images/bodyBg3.jpg");
+	background-size:cover;
+	opacity:0.95;
+}
+
+section{
+	margin:2em;
+	min-height:200px;
+}
+
+/*Détails stylistique de la bande de spoiler*/
+.spoiler{
+	width:100%;
+	background-color:grey;
+	background-image:url("../images/bg04.jpg");
+}
+
+#Listing .spoiler{
+	border:1px solid black;
+	border-bottom:0px;
+}
+
+#Listing .spoiler:last-of-type{
+	border-bottom:1px solid black;
+}
+
+/*Stopage de la propagation des attributs des spoilers parents*/
+#Listing .spoiler .spoiler{
+	border-left:0px;
+	border-right:0px;
+	border-bottom:0px;
+}
+
+.spoiler .spoiler{
+	background-image:url("../images/bg05.jpg");
+	background-size:inherit;
+	border:0px;
+	/*border-top: 1px solid black;*/
+}
+
+.spoiler .spoiler div{
+	border:0px;
+	border-top: 1px solid black;
+	background-image:url("../images/bg06.jpg");
+}
+
+/*Contenu caché du spoiler
+.spoiler div:first-of-type{
+	display:none;	
+}*/
+
+/*Suppression des margins par défaut des balises <p> dans les spoilers*/
+.spoiler p{
+	margin:0px;
+	padding:10px;
+}
+
+/*Détails stylistiques des éléments visible de base sur le spoiler (Titre, etc...)*/
+.spoiler p span{
+	margin-left:30px;
+	margin-right:30px;
+}
+
+/*Correction de détails stylistiques du premier élément visible sur le spoiler*/
+.spoiler p span:first-child{
+	margin-left:0px;
+}
+
+/*Correction de détails stylistiques du dernier élément visible sur le spoiler*/
+.spoiler p span:last-child{
+	margin-right:0px;
+	color:red;
+	float:right;
+}
+
+.spoiler .spoiler div p span:last-child{
+	margin-right:0px;
+	color:black;
+	float:inherit;
+}
+
+.spoiler .spoiler div div:first-child{
+	border:0px;
+}
+
+#Listing{
+	background-image:url("../images/bg02.jpg");
+	padding:1em;
+	border:10px solid transparent;
+	border-image:url("../images/bordure2.png") 10 10;
+	border-image-outset: 1;
+}
+
+#Listing h1:first-of-type{
+	margin-top:0px;
+}

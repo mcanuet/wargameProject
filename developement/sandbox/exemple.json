@@ -1,0 +1,49 @@
+var donnee = {
+	"tournoiNum":{
+		// Modifier les "Num" par des numéros correspondant aux armées, tours etc...
+		// "rencontreNum":[
+		"combatNum":{
+			// Les valeurs Oui/Non peuvent être true/false (sans majuscule) ou 1/0
+			// "U1", "U2" etc... doivent être remplacées par le nom de l'unité et son numéro identifiant, par exemple : "Archer1", "Archer2", "Cavalier1", "Enrôlé1", "Arbélétrier1", "Arbalétrier2" etc...
+			"seed":1,
+			"armeeNum":{
+				"vainqueur":0,							// Oui/Non vainqueur ?
+				"Compo initiale":[],					// Nom des unités dans la compo initiale de l'armée
+				"tourNum":{
+					"bonus":true,						// Oui/Non bonus général en ligne ?
+					"U1":{								// Détails de l'unité U1, si rien ne s'est passé ce tour-ci (Pas d'attaque ni défense), n'existe pas.
+						//Détails d'attaque
+						"cible":"U2",					// Nom de l'attaqué
+						"attaque":1,					// Oui/Non attaque réussi ?
+						"dégâts_Ingligés":150,			// Valeur dégâts ingligés
+						//Détails défense
+						"attaquant":["U2","U3"],		// Nom de l'attaquant
+						"esquive":[0,0],				// Oui/Non attaque reçu esquivé ?
+						"dégâts_Reçu":[10,5],			// Valeur dégâts reçus
+						"contre-attaque":[0,0],			// Oui/Non contre-attaque infligée
+						"dégâts_ContreAttaque":[0,0],	// Valeur dégâts de la contre-attaque
+						"PVrestant":22					// Valeur pv restant à la fin du tour
+	
+					}
+	
+				},
+				"tourNum":{
+					"bonus":true,						// Oui/Non bonus général en ligne ?
+					"U1":{								// Détails de l'unité U1, si rien ne s'est passé ce tour-ci (Pas d'attaque ni défense), n'existe pas.
+						//Détails d'attaque
+						"cible":"U2",					// Nom de l'attaqué
+						"attaque":1,					// Oui/Non attaque réussi ?
+						"dégâts_Ingligés":150,			// Valeur dégâts ingligés
+						//Détails défense
+						"attaquant":["U2","U3"],		// Nom de l'attaquant
+						"esquive":[0,0],				// Oui/Non attaque reçu esquivé ?
+						"dégâts_Reçu":[10,5],			// Valeur dégâts reçus
+						"contre-attaque":[0,0],			// Oui/Non contre-attaque infligée
+						"dégâts_ContreAttaque":[0,0],	// Valeur dégâts de la contre-attaque
+						"PVrestant":22				// Valeur pv restant à la fin du tour
+					}
+				}
+			}
+		}
+	}
+}

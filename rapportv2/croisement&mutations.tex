@@ -1,0 +1,22 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage[francais]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\subsection{Croisements}
+
+	Dans ce projet, les croisements entre armées se basent sur le même principe que les croisements génétiques. Plus précisément, deux armées parentes doivent être fournies (ceci en partie géré par l'algorithme génétique), à partir de ces armées, une armée enfant sera créée. Le croisement est réalisé uniquement sur la composition des armées (donc, par exemple, pas de croisements au niveau des soldes, ces derniers étant fixe d'une armée à l'autre). Ces compositions, ensemble d'unités, vont devoir se "mélanger" de façon aléatoire tout en respectant une contrainte qu'est le solde disponible d'une armée. A cause de cette contrainte, on ne peut réellement tirer au sort une unité d'armée parente pour rejoindre l'armée enfant sous peine de voir un solde restant négatif (théoriquement impossible). Pour palier à cette contrainte, nous détectons dans un premier temps les unités dîtes "embauchables" d'une première armée parente en fonction du solde restant de l'armée enfant. Une fois cela réalisé, on tire aléatoirement l'une de ces unités embauchable que l'on ajoute à l'armée enfant (le solde étant ajusté en conséquence). On recommence cette fois-ci avec la seconde armée parente, on détecte donc les unités embauchables pour l'armée enfant, unités que l'on va tirer au sort pour rejoindre l'armée enfant etc. S'il ne reste plus d'unités embauchables dans l'une des armées parente, ce cycle va tout de même continuer si l'autre possède encore de ces unités embauchables et ce jusqu'à ce que les deux parents n'aient plus d'unités ou du moins d'unités embauchables.
+	
+	
+\subsection{Mutations}
+
+	Tout comme pour les croisements, les mutations, se basant sur les mutations génétiques, ne vont affecter que uniquement les compositions d'armées. Selon un taux de mutation donné, et en fonction de la taille de composition d'armée, un certain nombre d'unités disparaitront pour laisser place à de nouvelles unités. Encore une fois, la contrainte du solde est présent, pour palier à ce problème lors de la mutation, pour N unités supprimées (et restitution de leur valeur dans le solde restant), nous tentons d'ajouter N fois une unité embauchable. Dans le cas où à la (N-X) ième, X différent de 0, tentative d'ajout d'unité il ne resterait plus d'unités embauchable, l'armée sera alors restituée avec les mutations réalisées et par conséquent avec X unités en moins dans sa composition qu'avant cette série de mutations.
+
+
+
+\end{document}

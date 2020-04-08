@@ -1,0 +1,113 @@
+var donnee = {
+	"tournoi1":{
+		"combat1":{
+			"armee1":{
+				"Composition":["archer1","archer2","cavalier1"], //Composition initiale de l'armée, avec les détails maximum, les unités homologues doivent être distinguées par un chiffre/nombre associé.
+				"race":"humain" //Nom de la race de l'armée (Permet d'aller rechercher les bonnes données des unités par la suite)
+			},
+			"armee2":{
+				"Compo initiale":["gobelin1","gobelin2","archer1"],
+				"race":"ork"
+			},
+			"1":{
+				"seed":1, //Numéro de la seed associée au combat
+				"armee1":{
+					"vainqueur":1, //Oui/Non pour éviter de traiter l'ensemble des données pour détecter le vainqueur du combat
+					"tour1":{
+						"bonus":0, //Oui/Non Le bonus du général était-il activé ?
+						"archer1":{
+							//Détails d'attaque
+							"cible":"gobelin1", //Cible de l'attaque ici de "archer1", sera peut être transformé en liste tout comme "attaquant" afin de satisfaire le cas de la double attaque par les elfes
+							"attaque":1, //Oui/Non L'attaque a-t-elle réussie ? Si dégâts_Infligés = 0, permet de différencier les cas : "Attaque échouée" et "Attaque esquivée"
+							"dégâts_Infligés":20, //Nombre de dégâts infligés
+							//Détails défense
+							"attaquant":["gobelin2","archer1"], //Unité/Liste d'unités ayant attaqué "archer1"
+							"esquive":[0,1], //Valeur/Liste des valeurs Oui/Non si une esquive par "archer1" a eu lieu
+							"dégâts_Reçu":[5,0], //Valeur/Liste des valeurs correspondant aux dégâts reçus par "archer1"
+							"contre-attaque":[0,1], //Valeur/Liste des valeurs Oui/Non Une contre-attaque a-t-elle est réalisée ?
+							"dégâts_ContreAttaque":[0,10], //Valeur/Liste des valeurs des dégâts infligés par "archer1" dans sa contre-attaque
+							"PVrestant":10 //Points de vie restant à "archer1" en fin de tour
+						}
+		
+					},
+					"tour2":{
+						"bonus":0,
+						"archer2":{
+							//Détails d'attaque
+							"cible":"gobelin2",
+							"attaque":1,
+							"dégâts_Infligés":20,
+							//Détails défense
+							"attaquant":[],
+							"PVrestant":15
+						},
+						"cavalier1":{
+							//Détails d'attaque
+							"cible":"archer1",
+							"attaque":1,
+							"dégâts_Infligés":20,
+							//Détails défense
+							"attaquant":[],
+							"PVrestant":25
+						}
+					}
+				},
+				"armee2":{
+					"vainqueur":0,
+					"tour1":{
+						"bonus":0,
+						"gobelin1":{
+							//Détails d'attaque
+							"cible":"", //Les attributs suivants concernant l'attaque n'auront pas besoin d'être renseignés.
+							//Détails défense
+							"attaquant":["archer1"],
+							"esquive":[0],
+							"dégâts_Reçu":[20],
+							"PVrestant":0
+						},
+						"gobelin2":{
+							//Détails d'attaque
+							"cible":"archer1",
+							"attaque":1,
+							"dégâts_Infligés":5,
+							//Détails défense
+							"attaquant":[],
+							"PVrestant":5
+						},
+						"archer1":{
+							//Détails d'attaque
+							"cible":"archer1",
+							"attaque":1,
+							"dégâts_Infligés":0,
+							//Détails défense
+							"attaquant":[],
+							"PVrestant":5
+						}
+		
+					},
+					"tour2":{
+						"bonus":0,
+						"gobelin2":{
+							//Détails d'attaque
+							"cible":"",
+							//Détails défense
+							"attaquant":["archer2"],
+							"esquive":[0],
+							"dégâts_Reçu":[20],
+							"PVrestant":0
+						},
+						"archer1":{
+							//Détails d'attaque
+							"cible":"",
+							//Détails défense
+							"attaquant":["cavalier1"],
+							"esquive":[0],
+							"dégâts_Reçu":[20],
+							"PVrestant":0
+						}
+					}
+				}
+			}
+		}
+	}
+}
